@@ -1,0 +1,14 @@
+public class MemoryBlock {
+    int start, end, size; // خصائص البلوك
+    boolean isFree;
+    String processID;
+    int internalFragmentaion; 
+
+    public MemoryBlock(int start, int end, int size) {
+        this.start = start;
+        this.end = end;
+        this.size = size;
+        this.isFree= true;
+        this.processID= "Null";
+        this.internalFragmentaion= 0;
+    }
